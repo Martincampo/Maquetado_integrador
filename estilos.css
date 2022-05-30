@@ -1,0 +1,78 @@
+/*
+font-family: 'Libre Bodoni', serif;
+*/
+
+footer {
+    background-color: rgb(237, 236, 236);
+}
+
+h1,h2,h3,h5,b {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.hero {
+    background: url(../Maquetado/img/salon-barberia.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    color: white;
+}
+
+.lista-estilos {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-estilos li {
+    margin: 4px 0;
+}
+
+.lista-estilos li a {
+    background-color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(21, 21, 21);
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-estilos li a :hover {
+    color: black;
+    background-color: #dadada;
+}
+
+.lista-estilos li a img {
+    width: 120px;
+    height: 50px;
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+}
+
+.lista-estilos li a :hover img{
+    filter: none;
+    margin-right: 1.4rem;
+    
+}
+
+.testimonios {
+    background-color: #dadada;
+    padding-bottom: 3rem !important;
+}
+
+.testimonios{
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.card {
+    text-align: center;
+    padding: 15px 40px;
+    background-color: #dadada;
+}
+
+#nosotros {
+    text-align: ;
+    padding: 50px 40px;
+}
